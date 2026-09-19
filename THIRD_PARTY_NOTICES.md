@@ -21,7 +21,7 @@
 
 ## 音频
 
-本应用键盘音效与结果音效由 `src/audio.ts` 使用 Web Audio API 程序化生成，无第三方采样。声音包：清脆、机械、词库、晶体。许可证：原创程序化音频。未使用 kbsim 采样，未复制 Thock WAV，未复制 Monkeytype 音频。
+本应用键盘音效、结果音效、拼写旋律与角色短声纹由 `src/audio.ts` 使用 Web Audio API 程序化生成，无第三方采样。声音包：清脆、机械、词库、晶体。角色矢量与词星场景见 `src/game/`，原创 MIT。未使用 kbsim 采样，未复制 Thock WAV，未复制 Monkeytype 音频，未引入 Howler.js 或 PixiJS。
 
 ## 开源参考
 

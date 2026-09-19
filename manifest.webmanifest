@@ -1,8 +1,8 @@
 {
   "id": "/word-siege-tem8-v2-preview/",
-  "name": "专八单词攻坚 V2 预览",
-  "short_name": "专八V2预览",
-  "description": "Word Siege TEM8 v2 真机验收预览。独立于正式版，不影响正式进度。",
+  "name": "专八单词攻坚 · 词海星港",
+  "short_name": "词海星港",
+  "description": "Word Siege TEM8 词海星港预览。独立于正式版，不影响正式进度。",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

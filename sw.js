@@ -1,5 +1,5 @@
-const VERSION = 'word-siege-tem8-v2-preview-bd35c4b'
-const CORE = ['./', './index.html', './manifest.webmanifest']
+const VERSION = 'word-siege-tem8-v2-preview-v3-starport'
+const CORE = ['./', './index.html', './manifest.webmanifest', './icons/icon.svg', './icons/icon-192.png', './icons/icon-180.png']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
