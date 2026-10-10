@@ -1,8 +1,8 @@
 {
   "id": "/word-siege-tem8-v2-preview/",
-  "name": "专八单词攻坚 · 词海星港",
-  "short_name": "词海星港",
-  "description": "Word Siege TEM8 词海星港预览。独立于正式版，不影响正式进度。",
+  "name": "专八单词攻坚 V6",
+  "short_name": "单词攻坚 V6",
+  "description": "分课程学习、掌握与复习；N4/N5 待校对。",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

@@ -1,0 +1,50 @@
+{
+  "packId": "independent-b2",
+  "title": "独立使用英语 B2",
+  "schemaVersion": 1,
+  "contentVersion": "courses-1-20260928",
+  "lemmaCount": 2325,
+  "senseCount": 2325,
+  "expressionCount": 0,
+  "rawBytes": 4039513,
+  "gzBytes": 688116,
+  "sha256": "cbd47ebfca7513043ff051b2f9a2416c285713f9e25089eb787e15a05e161dbb",
+  "url": "packs/courses/independent-b2.json.gz",
+  "level": "B2",
+  "purpose": "常见多义词、短语动词与固定搭配",
+  "route": "core",
+  "prerequisite": "independent-b1",
+  "reviewStatus": "licenced-machine-built",
+  "sources": [
+    "CEFR-J / Open Language Profiles (CC BY-SA)",
+    "Octanove Vocabulary Profile C1/C2 (CC BY-SA)",
+    "Open English WordNet (CC BY 4.0)",
+    "CMUdict (BSD-style (CMU notice))",
+    "ECDICT (MIT code / CC BY-SA 4.0 dictionary content)",
+    "FrequencyWords (MIT)"
+  ],
+  "fieldSources": {
+    "CEFR-J / Open Language Profiles": [
+      "CEFR level (A1-B2)"
+    ],
+    "Octanove Vocabulary Profile C1/C2": [
+      "CEFR level (C1-C2)"
+    ],
+    "Open English WordNet": [
+      "pos",
+      "senseId",
+      "definition",
+      "example"
+    ],
+    "CMUdict": [
+      "US pronunciation (ARPABET->IPA)"
+    ],
+    "ECDICT": [
+      "Chinese gloss",
+      "word forms"
+    ],
+    "FrequencyWords": [
+      "spoken-frequency ordering (ordering only, never a level)"
+    ]
+  }
+}

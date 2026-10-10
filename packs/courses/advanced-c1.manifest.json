@@ -1,0 +1,50 @@
+{
+  "packId": "advanced-c1",
+  "title": "高级通用英语 C1",
+  "schemaVersion": 1,
+  "contentVersion": "courses-1-20260928",
+  "lemmaCount": 843,
+  "senseCount": 843,
+  "expressionCount": 0,
+  "rawBytes": 1443366,
+  "gzBytes": 242931,
+  "sha256": "5bc5f96a0e29295bfdda9bf56981c37c7c4c4aa50a37404347c76578b6846a70",
+  "url": "packs/courses/advanced-c1.json.gz",
+  "level": "C1",
+  "purpose": "通用高级词、文化表达及高价值书面词",
+  "route": "core",
+  "prerequisite": "independent-b2",
+  "reviewStatus": "licenced-machine-built",
+  "sources": [
+    "CEFR-J / Open Language Profiles (CC BY-SA)",
+    "Octanove Vocabulary Profile C1/C2 (CC BY-SA)",
+    "Open English WordNet (CC BY 4.0)",
+    "CMUdict (BSD-style (CMU notice))",
+    "ECDICT (MIT code / CC BY-SA 4.0 dictionary content)",
+    "FrequencyWords (MIT)"
+  ],
+  "fieldSources": {
+    "CEFR-J / Open Language Profiles": [
+      "CEFR level (A1-B2)"
+    ],
+    "Octanove Vocabulary Profile C1/C2": [
+      "CEFR level (C1-C2)"
+    ],
+    "Open English WordNet": [
+      "pos",
+      "senseId",
+      "definition",
+      "example"
+    ],
+    "CMUdict": [
+      "US pronunciation (ARPABET->IPA)"
+    ],
+    "ECDICT": [
+      "Chinese gloss",
+      "word forms"
+    ],
+    "FrequencyWords": [
+      "spoken-frequency ordering (ordering only, never a level)"
+    ]
+  }
+}

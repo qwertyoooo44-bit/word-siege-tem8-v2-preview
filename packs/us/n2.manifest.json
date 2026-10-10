@@ -1,0 +1,22 @@
+{
+  "packId": "us-native-n2",
+  "title": "美国通用词 N2",
+  "schemaVersion": 1,
+  "contentVersion": "us-native-2b-20260923",
+  "lemmaCount": 9000,
+  "lexemeCount": 10798,
+  "senseCount": 18672,
+  "formCount": 11272,
+  "expressionCount": 800,
+  "rawBytes": 29395553,
+  "gzBytes": 3489528,
+  "sha256": "13cf0badb4a5bd1ec9098b7647bb64f1b40e1caa7bf0b050e00466a0e3e57c44",
+  "url": "packs/us/n2.json.gz",
+  "sources": [
+    "OEWN 2025 CC BY 4.0",
+    "CMUdict BSD-style",
+    "ECDICT 1.0.28 CC BY-SA 4.0"
+  ],
+  "licenseSummary": "Sense text CC BY 4.0; pronunciation BSD-style; Chinese gloss CC BY-SA 4.0, scoped to the headword.",
+  "audio": "temporary-system-voice"
+}

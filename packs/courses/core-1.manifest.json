@@ -1,0 +1,50 @@
+{
+  "packId": "core-1",
+  "title": "核心英语 1",
+  "schemaVersion": 1,
+  "contentVersion": "courses-1-20260928",
+  "lemmaCount": 400,
+  "senseCount": 400,
+  "expressionCount": 0,
+  "rawBytes": 728243,
+  "gzBytes": 136615,
+  "sha256": "4f4b0aa8ea2ae8deee0ff05c37258369550501d0df2a51e890e52a67d87bcbdb",
+  "url": "packs/courses/core-1.json.gz",
+  "level": "A1-A2",
+  "purpose": "核心英语第一阶段：最高频、有等级依据的通用词",
+  "route": "core",
+  "prerequisite": "survival-a1",
+  "reviewStatus": "licenced-machine-built",
+  "sources": [
+    "CEFR-J / Open Language Profiles (CC BY-SA)",
+    "Octanove Vocabulary Profile C1/C2 (CC BY-SA)",
+    "Open English WordNet (CC BY 4.0)",
+    "CMUdict (BSD-style (CMU notice))",
+    "ECDICT (MIT code / CC BY-SA 4.0 dictionary content)",
+    "FrequencyWords (MIT)"
+  ],
+  "fieldSources": {
+    "CEFR-J / Open Language Profiles": [
+      "CEFR level (A1-B2)"
+    ],
+    "Octanove Vocabulary Profile C1/C2": [
+      "CEFR level (C1-C2)"
+    ],
+    "Open English WordNet": [
+      "pos",
+      "senseId",
+      "definition",
+      "example"
+    ],
+    "CMUdict": [
+      "US pronunciation (ARPABET->IPA)"
+    ],
+    "ECDICT": [
+      "Chinese gloss",
+      "word forms"
+    ],
+    "FrequencyWords": [
+      "spoken-frequency ordering (ordering only, never a level)"
+    ]
+  }
+}

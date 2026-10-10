@@ -1,0 +1,18 @@
+{
+  "packId": "us-native-n0",
+  "title": "\u7f8e\u56fd\u901a\u7528\u8bcd N0",
+  "schemaVersion": 1,
+  "contentVersion": "us-native-2a-20260923",
+  "lemmaCount": 2000,
+  "senseCount": 2000,
+  "expressionCount": 58,
+  "rawBytes": 1827548,
+  "gzBytes": 297894,
+  "sha256": "f5fd6524b8fb61625796abee559a5f1bc31604e773f8ad16562e6aceab7e86d2",
+  "url": "packs/us/n0.json.gz",
+  "sources": [
+    "OEWN 2025 CC BY 4.0",
+    "CMUdict BSD-style",
+    "ECDICT 1.0.28 CC BY-SA 4.0"
+  ]
+}

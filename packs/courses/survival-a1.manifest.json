@@ -1,0 +1,50 @@
+{
+  "packId": "survival-a1",
+  "title": "入门生存英语",
+  "schemaVersion": 1,
+  "contentVersion": "courses-1-20260928",
+  "lemmaCount": 909,
+  "senseCount": 909,
+  "expressionCount": 0,
+  "rawBytes": 1590620,
+  "gzBytes": 283013,
+  "sha256": "c1b29371518bf075cac5061ca38b07c642ebf7cdccf8496e945152133a058ff2",
+  "url": "packs/courses/survival-a1.json.gz",
+  "level": "A1",
+  "purpose": "高频生活词、数字、时间、家庭、动作与基本交流",
+  "route": "core",
+  "prerequisite": null,
+  "reviewStatus": "licenced-machine-built",
+  "sources": [
+    "CEFR-J / Open Language Profiles (CC BY-SA)",
+    "Octanove Vocabulary Profile C1/C2 (CC BY-SA)",
+    "Open English WordNet (CC BY 4.0)",
+    "CMUdict (BSD-style (CMU notice))",
+    "ECDICT (MIT code / CC BY-SA 4.0 dictionary content)",
+    "FrequencyWords (MIT)"
+  ],
+  "fieldSources": {
+    "CEFR-J / Open Language Profiles": [
+      "CEFR level (A1-B2)"
+    ],
+    "Octanove Vocabulary Profile C1/C2": [
+      "CEFR level (C1-C2)"
+    ],
+    "Open English WordNet": [
+      "pos",
+      "senseId",
+      "definition",
+      "example"
+    ],
+    "CMUdict": [
+      "US pronunciation (ARPABET->IPA)"
+    ],
+    "ECDICT": [
+      "Chinese gloss",
+      "word forms"
+    ],
+    "FrequencyWords": [
+      "spoken-frequency ordering (ordering only, never a level)"
+    ]
+  }
+}

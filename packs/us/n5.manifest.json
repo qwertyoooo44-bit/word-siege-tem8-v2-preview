@@ -1,0 +1,24 @@
+{
+  "packId": "us-native-n5",
+  "title": "美国词汇候选 N5（待校对）",
+  "schemaVersion": 1,
+  "contentVersion": "us-native-4-20260924",
+  "lemmaCount": 11500,
+  "lexemeCount": 11792,
+  "senseCount": 13013,
+  "formCount": 2062,
+  "expressionCount": 565,
+  "missingCmuPronunciation": 11500,
+  "rawBytes": 24205000,
+  "gzBytes": 2522482,
+  "sha256": "8ab325826dab8909e341fa479831ba8b60df17579525e8e44da9fedd0e86e9aa",
+  "url": "packs/us/n5.json.gz",
+  "sources": [
+    "OEWN 2025 CC BY 4.0",
+    "CMUdict BSD-style",
+    "ECDICT 1.0.28 CC BY-SA 4.0"
+  ],
+  "licenseSummary": "Sense text CC BY 4.0; available pronunciation BSD-style; Chinese gloss CC BY-SA 4.0, scoped to the headword.",
+  "audio": "temporary-system-voice; missing CMUdict pronunciation explicitly marked",
+  "reviewStatus": "candidate-not-validated-for-native-general-use"
+}

@@ -1,0 +1,23 @@
+{
+  "packId": "us-native-n3",
+  "title": "美国通用词 N3",
+  "schemaVersion": 1,
+  "contentVersion": "us-native-3-20260924",
+  "lemmaCount": 17000,
+  "lexemeCount": 19025,
+  "senseCount": 25178,
+  "formCount": 11704,
+  "expressionCount": 2779,
+  "missingCmuPronunciation": 3760,
+  "rawBytes": 44078535,
+  "gzBytes": 5411377,
+  "sha256": "f173156baf7a314874162d9442b34f51dd4014e28e798663897cc7ef3b3bda8f",
+  "url": "packs/us/n3.json.gz",
+  "sources": [
+    "OEWN 2025 CC BY 4.0",
+    "CMUdict BSD-style",
+    "ECDICT 1.0.28 CC BY-SA 4.0"
+  ],
+  "licenseSummary": "Sense text CC BY 4.0; available pronunciation BSD-style; Chinese gloss CC BY-SA 4.0, scoped to the headword.",
+  "audio": "temporary-system-voice; missing CMUdict pronunciation explicitly marked"
+}

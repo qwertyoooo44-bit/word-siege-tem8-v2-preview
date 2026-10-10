@@ -1,0 +1,24 @@
+{
+  "packId": "us-native-n4",
+  "title": "美国词汇候选 N4（待校对）",
+  "schemaVersion": 1,
+  "contentVersion": "us-native-4-20260924",
+  "lemmaCount": 11500,
+  "lexemeCount": 12067,
+  "senseCount": 13785,
+  "formCount": 3985,
+  "expressionCount": 601,
+  "missingCmuPronunciation": 11413,
+  "rawBytes": 25079060,
+  "gzBytes": 2717756,
+  "sha256": "2ace95a388ee118e2705840f9e043fc7c121f69fb0e35dc59ae40b62c125506f",
+  "url": "packs/us/n4.json.gz",
+  "sources": [
+    "OEWN 2025 CC BY 4.0",
+    "CMUdict BSD-style",
+    "ECDICT 1.0.28 CC BY-SA 4.0"
+  ],
+  "licenseSummary": "Sense text CC BY 4.0; available pronunciation BSD-style; Chinese gloss CC BY-SA 4.0, scoped to the headword.",
+  "audio": "temporary-system-voice; missing CMUdict pronunciation explicitly marked",
+  "reviewStatus": "candidate-not-validated-for-native-general-use"
+}

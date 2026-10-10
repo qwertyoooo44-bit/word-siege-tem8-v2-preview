@@ -1,0 +1,50 @@
+{
+  "packId": "daily-a2",
+  "title": "日常基础英语",
+  "schemaVersion": 1,
+  "contentVersion": "courses-1-20260928",
+  "lemmaCount": 1155,
+  "senseCount": 1155,
+  "expressionCount": 0,
+  "rawBytes": 2005359,
+  "gzBytes": 357380,
+  "sha256": "3c67e69a44d0fef0fbc93d7cc42e0553711648a737208ddb5cd68c89468e2385",
+  "url": "packs/courses/daily-a2.json.gz",
+  "level": "A2",
+  "purpose": "常见生活场景与基础表达",
+  "route": "core",
+  "prerequisite": "survival-a1",
+  "reviewStatus": "licenced-machine-built",
+  "sources": [
+    "CEFR-J / Open Language Profiles (CC BY-SA)",
+    "Octanove Vocabulary Profile C1/C2 (CC BY-SA)",
+    "Open English WordNet (CC BY 4.0)",
+    "CMUdict (BSD-style (CMU notice))",
+    "ECDICT (MIT code / CC BY-SA 4.0 dictionary content)",
+    "FrequencyWords (MIT)"
+  ],
+  "fieldSources": {
+    "CEFR-J / Open Language Profiles": [
+      "CEFR level (A1-B2)"
+    ],
+    "Octanove Vocabulary Profile C1/C2": [
+      "CEFR level (C1-C2)"
+    ],
+    "Open English WordNet": [
+      "pos",
+      "senseId",
+      "definition",
+      "example"
+    ],
+    "CMUdict": [
+      "US pronunciation (ARPABET->IPA)"
+    ],
+    "ECDICT": [
+      "Chinese gloss",
+      "word forms"
+    ],
+    "FrequencyWords": [
+      "spoken-frequency ordering (ordering only, never a level)"
+    ]
+  }
+}
