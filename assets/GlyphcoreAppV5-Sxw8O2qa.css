@@ -1,0 +1,44 @@
+.v5-art-board {
+  height: 100dvh;
+  overflow: hidden;
+  padding: 28px 36px;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  align-items: center;
+  min-height: 620px;
+}
+
+.art-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.art-grid .v5-character.hero {
+  width: 240px;
+  height: 240px;
+}
+
+.letter-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 12px;
+  min-height: 520px;
+  align-items: center;
+}
+
+.letter-grid small {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.phase-row { display: none; }
+
+.silhouette-page {
+  background: #f5fbff;
+  color: #071421;
+}

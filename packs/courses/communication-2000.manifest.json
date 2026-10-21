@@ -1,0 +1,42 @@
+{
+  "packId": "communication-2000",
+  "title": "高频沟通 · 起步 2000",
+  "schemaVersion": 1,
+  "contentVersion": "communication-core-1.0.0",
+  "lemmaCount": 2000,
+  "senseCount": 2000,
+  "expressionCount": 0,
+  "rawBytes": 1802557,
+  "gzBytes": 326194,
+  "sha256": "5fb5571bb7d6774546cf676d24798718a8b08a263512e227e90eb9751748ee17",
+  "url": "packs/courses/communication-2000.json.gz",
+  "level": "基础对话",
+  "purpose": "生活、人物、动作与最常用表达",
+  "route": "core",
+  "prerequisite": null,
+  "reviewStatus": "licensed-machine-built-with-authored-starter",
+  "sources": [
+    "FrequencyWords/OpenSubtitles2018 frequency content (CC BY-SA 4.0)",
+    "CEFR-J profile (citation required); Octanove C1/C2 (CC BY-SA 4.0)",
+    "Open English WordNet 2025 (CC BY 4.0)",
+    "ECDICT dictionary content (CC BY-SA 4.0)",
+    "CMUdict (BSD-style CMU notice)",
+    "Project-authored basic glosses and example sentences (draft; not human reviewed)"
+  ],
+  "fieldSources": {
+    "order": [
+      "FrequencyWords/OpenSubtitles2018"
+    ],
+    "definition": [
+      "OEWN 2025",
+      "project-authored starter"
+    ],
+    "gloss": [
+      "ECDICT",
+      "project-authored starter"
+    ],
+    "ipa": [
+      "CMUdict"
+    ]
+  }
+}

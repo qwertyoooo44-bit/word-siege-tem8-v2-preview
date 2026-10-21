@@ -1,0 +1,178 @@
+{
+  "packId": "practical-5000",
+  "title": "现代英语沟通与学习 · 5000 词",
+  "schemaVersion": 1,
+  "contentVersion": "practical-5000-20261021.2",
+  "lemmaCount": 5000,
+  "senseCount": 5000,
+  "expressionCount": 0,
+  "rawBytes": 8432389,
+  "gzBytes": 647986,
+  "sha256": "647ef2742667feff2e67272c6fae65aa9e7af88367b08ed43304e6f381bef8c6",
+  "url": "packs/courses/practical-5000.json.gz",
+  "level": "Frequency ordered; CEFR shown only per entry with source evidence",
+  "attribution": {
+    "CEFRJ": "The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of Foreign Studies; cite the dataset; research and commercial use permitted without charge; copyright Tono Laboratory at TUFS.",
+    "Octanove": "Octanove Vocabulary Profile C1/C2, CC BY-SA 4.0."
+  },
+  "purpose": "Daily life, workplace collaboration, study and academic communication",
+  "route": "core",
+  "prerequisite": null,
+  "reviewStatus": "candidate-not-validated-for-native-general-use",
+  "sources": [
+    "FrequencyWords content, OpenSubtitles2018-derived, CC BY-SA 4.0; ordering only. FrequencyWords generator code is MIT and is not redistributed.",
+    "Open English WordNet 2025, CC BY 4.0.",
+    "ECDICT 1.0.28 dictionary content, MIT License; Copyright (c) 2017 Linwei.",
+    "CMUdict commit 74790861f652, BSD-style redistribution with CMU notice.",
+    "CEFR-J A1-B2 terms of use require citation; research and commercial use are permitted without charge, copyright Tono Laboratory at TUFS. Octanove C1/C2 is CC BY-SA 4.0. Levels are attached only when present in a source row.",
+    "Scenario tags are deterministic heuristic matches and are not human-reviewed."
+  ],
+  "licenses": [
+    {
+      "name": "FrequencyWords content, OpenSubtitles2018-derived",
+      "license": "CC BY-SA 4.0",
+      "revision": "525f9b560de45753a5ea01069454e72e9aa541c6",
+      "file": "content/2018/en/en_50k.txt",
+      "use": "ordering only"
+    },
+    {
+      "name": "FrequencyWords generator code",
+      "license": "MIT",
+      "revision": "525f9b560de45753a5ea01069454e72e9aa541c6",
+      "use": "not redistributed"
+    },
+    {
+      "name": "Open English WordNet",
+      "license": "CC BY 4.0",
+      "revision": "2025 edition",
+      "use": "POS, sense ID, definition and existing source examples"
+    },
+    {
+      "name": "ECDICT dictionary content",
+      "license": "MIT",
+      "revision": "1.0.28",
+      "copyright": "Copyright (c) 2017 Linwei",
+      "use": "POS-aligned Chinese gloss segment and inflection forms"
+    },
+    {
+      "name": "CMUdict",
+      "license": "BSD-style; CMU notice",
+      "revision": "74790861f652",
+      "use": "US pronunciation"
+    },
+    {
+      "name": "CEFR-J / Open Language Profiles A1-B2 datasets",
+      "license": "Terms of use: citation required; research and commercial use permitted without charge; copyright Tono Laboratory at TUFS",
+      "revision": "d4e45b75b38f27b30dfc5c44d8c571aec7e7092f",
+      "url": "https://github.com/openlanguageprofiles/olp-en-cefrj",
+      "attribution": "The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of Foreign Studies.",
+      "use": "per-entry CEFR A1-B2 only when supplied by source"
+    },
+    {
+      "name": "Octanove Vocabulary Profile C1/C2",
+      "license": "CC BY-SA 4.0",
+      "revision": "d4e45b75b38f27b30dfc5c44d8d571aec7e7092f",
+      "url": "https://github.com/openlanguageprofiles/olp-en-cefrj",
+      "attribution": "Octanove Vocabulary Profile C1/C2, via Open Language Profiles.",
+      "use": "per-entry CEFR C1/C2 only when supplied by source"
+    }
+  ],
+  "fieldSources": {
+    "order": [
+      "FrequencyWords/OpenSubtitles2018-derived rank, CC BY-SA 4.0 content; ordering only"
+    ],
+    "sense": [
+      "Open English WordNet 2025, CC BY 4.0"
+    ],
+    "gloss": [
+      "ECDICT 1.0.28, MIT; one POS-aligned segment; pending human review"
+    ],
+    "ipa": [
+      "CMUdict commit 74790861f652, BSD-style with CMU notice"
+    ],
+    "level": [
+      "CEFR-J/Open Language Profiles A1-B2 (citation required; commercial use permitted) or Octanove C1-C2 (CC BY-SA 4.0); row-level only"
+    ],
+    "example": [
+      "Existing OEWN example only; generated templates are withheld from playable context"
+    ],
+    "tags": [
+      "Deterministic heuristic matches over lemma, source Chinese gloss and WordNet definition; pending review"
+    ]
+  },
+  "tagDefinitions": {
+    "daily": "Rule-based matches for daily life, home, health, shopping, transport and social communication.",
+    "work": "Rule-based matches for work, employment, business, finance and workplace collaboration.",
+    "academic": "Rule-based matches for study, research, teaching, evidence and academic communication.",
+    "upperIntermediate": "B2/C1/C2 level with an explicit licensed per-entry CEFR source.",
+    "advanced": "C1/C2 level with an explicit Octanove source.",
+    "professionalAdvanced": "C1/C2 source plus the heuristic work tag."
+  },
+  "quotaMinimums": {
+    "daily": 500,
+    "work": 500,
+    "academic": 400,
+    "upper-intermediate": 800,
+    "advanced": 150,
+    "professional-advanced": 30
+  },
+  "quotaCounts": {
+    "daily": 739,
+    "work": 810,
+    "academic": 593,
+    "upper-intermediate": 943,
+    "advanced": 165,
+    "professional-advanced": 38
+  },
+  "levelCounts": {
+    "A2": 781,
+    "A1": 658,
+    "unclassified": 1495,
+    "B2": 778,
+    "B1": 1123,
+    "C1": 123,
+    "C2": 42
+  },
+  "partOfSpeechCounts": {
+    "adverb": 284,
+    "noun": 2889,
+    "adjective": 905,
+    "verb": 922
+  },
+  "fieldCoverage": {
+    "frequency": 5000,
+    "sense": 5000,
+    "zh": 5000,
+    "ipa": 5000,
+    "level": 3505
+  },
+  "cefrCoverage": {
+    "sourced": 3505,
+    "unsourced": 1495
+  },
+  "context": {
+    "sourceExamplesWithStandaloneLemma": 3139,
+    "noGradableSourceLemmaBlank": 1861,
+    "withheldSourceExamples": 1861,
+    "generatedTemplatesWithheld": 875
+  },
+  "manualReview": {
+    "status": "pending for all entries",
+    "unreviewedCount": 5000,
+    "learnerNotice": "Machine-assembled, sourced sense/gloss; not human-reviewed."
+  },
+  "integrity": {
+    "uniqueHeadwords": 5000,
+    "uniqueIds": 5000,
+    "sha256": "647ef2742667feff2e67272c6fae65aa9e7af88367b08ed43304e6f381bef8c6"
+  },
+  "selection": {
+    "strategy": "Frequency rank ascending after source-sense, POS/gloss, pronunciation and inflection checks",
+    "finalFrequencyRank": 6191,
+    "packages": [
+      "communication-2000",
+      "communication-5000",
+      "communication-10000"
+    ]
+  }
+}

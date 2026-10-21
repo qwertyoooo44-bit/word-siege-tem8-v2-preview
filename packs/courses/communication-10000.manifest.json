@@ -1,0 +1,42 @@
+{
+  "packId": "communication-10000",
+  "title": "高频沟通 · 进阶 10000",
+  "schemaVersion": 1,
+  "contentVersion": "communication-core-1.0.0",
+  "lemmaCount": 5000,
+  "senseCount": 5000,
+  "expressionCount": 0,
+  "rawBytes": 4987737,
+  "gzBytes": 756543,
+  "sha256": "2fd65379ebe01d7d73568b1cf030376727688c03a9ac694a298a4bd70d785dcd",
+  "url": "packs/courses/communication-10000.json.gz",
+  "level": "广泛交流",
+  "purpose": "新闻、文化与常见抽象话题",
+  "route": "core",
+  "prerequisite": "communication-5000",
+  "reviewStatus": "licensed-machine-built-with-authored-starter",
+  "sources": [
+    "FrequencyWords/OpenSubtitles2018 frequency content (CC BY-SA 4.0)",
+    "CEFR-J profile (citation required); Octanove C1/C2 (CC BY-SA 4.0)",
+    "Open English WordNet 2025 (CC BY 4.0)",
+    "ECDICT dictionary content (CC BY-SA 4.0)",
+    "CMUdict (BSD-style CMU notice)",
+    "Project-authored basic glosses and example sentences (draft; not human reviewed)"
+  ],
+  "fieldSources": {
+    "order": [
+      "FrequencyWords/OpenSubtitles2018"
+    ],
+    "definition": [
+      "OEWN 2025",
+      "project-authored starter"
+    ],
+    "gloss": [
+      "ECDICT",
+      "project-authored starter"
+    ],
+    "ipa": [
+      "CMUdict"
+    ]
+  }
+}

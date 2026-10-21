@@ -1,0 +1,42 @@
+{
+  "packId": "communication-5000",
+  "title": "高频沟通 · 扩展 5000",
+  "schemaVersion": 1,
+  "contentVersion": "communication-core-1.0.0",
+  "lemmaCount": 3000,
+  "senseCount": 3000,
+  "expressionCount": 0,
+  "rawBytes": 2686972,
+  "gzBytes": 463093,
+  "sha256": "33c8a1f9a36b19537a634ea0b273dbdc54b5ee07dc688727d63ceeea8bd49b12",
+  "url": "packs/courses/communication-5000.json.gz",
+  "level": "常见话题",
+  "purpose": "工作、出行、关系与日常问题",
+  "route": "core",
+  "prerequisite": "communication-2000",
+  "reviewStatus": "licensed-machine-built-with-authored-starter",
+  "sources": [
+    "FrequencyWords/OpenSubtitles2018 frequency content (CC BY-SA 4.0)",
+    "CEFR-J profile (citation required); Octanove C1/C2 (CC BY-SA 4.0)",
+    "Open English WordNet 2025 (CC BY 4.0)",
+    "ECDICT dictionary content (CC BY-SA 4.0)",
+    "CMUdict (BSD-style CMU notice)",
+    "Project-authored basic glosses and example sentences (draft; not human reviewed)"
+  ],
+  "fieldSources": {
+    "order": [
+      "FrequencyWords/OpenSubtitles2018"
+    ],
+    "definition": [
+      "OEWN 2025",
+      "project-authored starter"
+    ],
+    "gloss": [
+      "ECDICT",
+      "project-authored starter"
+    ],
+    "ipa": [
+      "CMUdict"
+    ]
+  }
+}

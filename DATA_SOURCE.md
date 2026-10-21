@@ -1,5 +1,7 @@
 # TEM8 数据来源
 
+英语沟通课程的独立来源、逐字段归属和许可见随包 manifest 与根目录 `THIRD_PARTY_NOTICES.md`。ECDICT 1.0.28 使用 MIT License；CEFR-J A1-B2 按其要求引用数据集并允许商业使用；Octanove C1/C2 使用 CC BY-SA 4.0。课程中未带来源的等级不予标注。
+
 派生词包来自 OpenEtymology 公开词书，不是完整生产 SQLite 词典。
 
 - 仓库：https://github.com/openetymology/OpenEtymology

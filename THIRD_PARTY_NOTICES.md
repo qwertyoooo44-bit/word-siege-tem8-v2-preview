@@ -2,7 +2,7 @@
 
 未使用 Qwerty Learner 代码或数据。未使用 OpenEtymology 完整生产 SQLite 词典。
 
-应用原创代码与原创 SVG 许可证见根目录 `LICENSE`（MIT）。词库数据许可证为 CC BY-SA 4.0，与代码许可证分开。不得把全部资源笼统写成 MIT 或 CC0。
+应用原创代码与原创 SVG 许可证见根目录 `LICENSE`（MIT）。第三方数据按各自来源和下列许可分别适用；不得把全部资源笼统写成 MIT 或 CC0。
 
 ## 运行时
 
@@ -37,6 +37,18 @@
 每项部署音频必须能从 manifest 追溯：文件 → 来源 → 版本 → 许可证 → SHA-256 → 用途。详见 `docs/ASSET_LICENSES.md` 与 `src/v5/audio/audioManifest.ts`。
 
 ## 数据
+
+课程词库数据采用多来源组合，各字段保留其来源和适用许可：
+
+- FrequencyWords / OpenSubtitles2018-derived frequency content：CC BY-SA 4.0，仅用于排序；FrequencyWords 生成器代码为 MIT，本应用未再分发该代码。
+- Open English WordNet 2025：CC BY 4.0，用于词性、义项、定义和现有例句。
+- ECDICT 1.0.28：MIT，Copyright (c) 2017 Linwei；用于词性匹配的中文释义片段和词形。
+- CMUdict：BSD-style redistribution terms with CMU notice；用于美式发音标注。
+- CEFR-J / Open Language Profiles A1-B2：须引用数据集；允许免费研究和商业用途；版权归 Tono Laboratory at TUFS。引用：The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, Tokyo University of Foreign Studies.
+- Octanove Vocabulary Profile C1/C2：CC BY-SA 4.0。
+- CEFR 等级仅在来源记录确实提供时附加；不把 CEFR-J 条款扩展到 Octanove，也不把 Octanove 的 CC BY-SA 套用到 CEFR-J。
+
+来源版本及原文证据保存在交付记录中；课程清单逐字段记录来源、许可和修订版本。
 
 正式专八学习内容派生自 OpenEtymology 公开词书：
 
