@@ -1,0 +1,14 @@
+{
+    "version":  "20261121-r12",
+    "tag":  "v6.20261121-r12",
+    "baseCommit":  "b9f406802466ce345bd35f5371b2359de0ad98d4",
+    "url":  "https://qwertyoooo44-bit.github.io/word-siege-tem8-v2-preview/",
+    "progressStorage":  "unchanged",
+    "entry":  "index-BnY8xsN8-r12.js",
+    "fixes":  [
+                  "Coalesced progress saves with background/unmount flush",
+                  "Preserved unsubmitted draft recovery",
+                  "Extended compatible review intervals to 1/3/7/14/30/60 days",
+                  "Preserved existing cache-update flow and resources"
+              ]
+}
